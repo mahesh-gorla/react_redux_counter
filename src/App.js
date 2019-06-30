@@ -19,9 +19,13 @@ class App extends Component {
 			<div>
 				<div className='App'>
 					<header className='App-header'>
-						<span onClick={this.incHandle}>+</span>
-						{this.props.count}
-						<span onClick={this.decHandle}>-</span>
+						<h1>
+							<span onClick={this.incHandle}>+</span>
+						</h1>
+						<h1>{this.props.count}</h1>
+						<h1>
+							<span onClick={this.decHandle}>-</span>
+						</h1>
 					</header>
 				</div>
 			</div>
